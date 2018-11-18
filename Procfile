@@ -1,1 +1,1 @@
-web: java -Dheroku=true -Dserver.port=$PORT -jar target/pbcanvasapp-0.0.1-SNAPSHOT.jar --salesforce.client_id=$SF_CANVAS_CLIENT_ID --salesforce.client_secret=$SF_CANVAS_CLIENT_SECRET
+web: java -Dheroku=true -Dserver.port=$PORT -Dprofile=$PROFILE -jar target/pbcanvasapp-0.0.1-SNAPSHOT.jar  --salesforce.client_id=$SF_CANVAS_CLIENT_ID --salesforce.client_secret=$SF_CANVAS_CLIENT_SECRET
